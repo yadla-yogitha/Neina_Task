@@ -1,0 +1,71 @@
+
+/* Container for the entire booking summary */
+.body{
+    background-color: aqua;
+}
+.booking-summary-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    height: 100vh;
+  }
+  
+  /* Card for the booking summary */
+  .booking-summary-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  /* Booking summary title */
+  .booking-summary-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  /* Text for the booking summary */
+  .booking-summary-text {
+    font-size: 1rem;
+    color: #7f8c8d;
+    margin-bottom: 30px;
+  }
+  
+  /* Booking details section */
+  .booking-details {
+    font-size: 1rem;
+    color: #34495e;
+  }
+  
+  .booking-details p {
+    margin: 10px 0;
+  }
+  
+  /* Styling for bold labels in booking details */
+  .booking-details strong {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .booking-summary-card {
+      padding: 20px;
+    }
+  
+    .booking-summary-title {
+      font-size: 1.6rem;
+    }
+    
+    .booking-summary-text {
+      font-size: 0.9rem;
+    }
+  }
+  

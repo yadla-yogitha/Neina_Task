@@ -1,0 +1,151 @@
+/* Container for all bookings */
+.all-bookings-container {
+    margin: 30px;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Title for the table */
+  .table-title {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Main table styling */
+  .booking-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Header row */
+  .table-header {
+    background-color: #723887;
+    color: white;
+  }
+  
+  /* Header columns */
+  .header-column {
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  /* Table rows */
+  .table-row {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-row:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Table cells */
+  .table-cell {
+    padding: 10px;
+    text-align: left;
+    vertical-align: middle;
+  }
+  
+  /* Button for checkout */
+  .checkout-button {
+    padding: 8px 16px;
+    background-color: #723887;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .checkout-button:hover {
+    background-color: #723887;
+  }
+  
+  /* No bookings message */
+  .no-bookings {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #723887;
+    margin-top: 20px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    /* Container for all bookings */
+    .all-bookings-container {
+      margin: 15px;
+      padding: 15px;
+    }
+  
+    /* Title for the table */
+    .table-title {
+      font-size: 1.5rem;
+    }
+  
+    /* Main table styling */
+    .booking-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 15px;
+    }
+  
+    /* Header row */
+    .table-header {
+      display: none; /* Hide the table header on mobile */
+    }
+  
+    /* Header columns */
+    .header-column {
+      display: none; /* Hide header columns on mobile */
+    }
+  
+    /* Table rows */
+    .table-row {
+      display: block;
+      padding: 10px 0;
+      margin-bottom: 10px;
+      border-radius: 8px;
+    }
+  
+    /* Style alternating rows */
+    .table-row:nth-child(even) {
+      background-color: #f0f0f0;
+    }
+  
+    /* Table cells */
+    .table-cell {
+      display: block;
+      text-align: left;
+      padding: 10px;
+      font-size: 0.9rem;
+      border-bottom: 1px solid #ddd;
+    }
+  
+    /* Add label for each table cell */
+    .table-cell:before {
+      content: attr(data-label);
+      font-weight: bold;
+      color: #723887;
+      display: block;
+      margin-bottom: 6px;
+    }
+  
+    /* Checkout button */
+    .checkout-button {
+      margin-top: 10px;
+      width: 100%;
+      font-size: 0.9rem;
+    }
+  
+    /* No bookings message */
+    .no-bookings {
+      font-size: 1.1rem;
+    }
+  }
+  

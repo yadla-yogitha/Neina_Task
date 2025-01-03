@@ -1,0 +1,69 @@
+
+/* Global styles for body */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background: url('h') no-repeat center center fixed;
+    background-size: cover;
+  }
+  
+  /* Container styles */
+  .mt-5.mx-5 {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Center align the text */
+  }
+  
+  /* Link styles */
+  .mt-5.mx-5 a {
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background: #723887;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .mt-5.mx-5 a:hover {
+    background: #ae63c9;
+  }
+  
+  /* Form container within Home */
+  .mt-5.mx-5 form {
+    margin-top: 30px;
+  }
+  
+  /* Heading styles */
+  .mt-5.mx-5 h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .mt-5.mx-5 {
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    .mt-5.mx-5 h1 {
+      font-size: 1.5rem;
+    }
+  
+    .mt-5.mx-5 a {
+      font-size: 0.9rem;
+    }
+  }
+  

@@ -1,0 +1,99 @@
+/* Global body styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  
+    background-size: cover;
+  }
+  
+  /* Container for the form */
+  form {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column; /* Align items in a column */
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Headings */
+  h1 {
+    font-size: 1.8rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  label {
+    display: block;
+    margin-top: 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  /* Input fields */
+  input, select, .react-datepicker-wrapper input {
+    width: 100%; /* Full width for inputs */
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  input:focus, select:focus, .react-datepicker-wrapper input:focus {
+    outline: none;
+    border-color: #723887;
+    box-shadow: 0 0 5px #723887;
+  }
+  
+  /* Error message styling */
+  p[style*="color: red"] {
+    color: #723887;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Submit button */
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background: #723887;
+    color: #fff;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background: #723887;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    form {
+      margin: 20px;
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
